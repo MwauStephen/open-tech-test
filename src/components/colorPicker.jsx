@@ -18,7 +18,7 @@ const ColorPicker = () => {
   return (
     <div>
       {/* Color input field */}
-      <input type="color" value={selectedColor} onChange={handleColorChange} />
+      <input type="input" value={selectedColor} onChange={handleColorChange} />
 
       {/* Display selected color */}
       <div
